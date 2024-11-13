@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #2E8B57;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .button {
+    background-color: #ff6600;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.destinations {
+    padding: 2rem;
+    text-align: center;
+}
+
+.destinations h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.destination-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.destination {
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+.destination h3 {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.destination p {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact {
+    padding: 2rem;
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}

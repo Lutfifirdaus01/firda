@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Religi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Wisata Religi Nusantara</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinasi">Destinasi</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Temukan Kedamaian di Setiap Destinasi Religi</h2>
+        <p>Menjelajahi situs-situs suci dan bersejarah di seluruh Nusantara.</p>
+        <a href="#destinasi" class="button">Jelajahi Destinasi</a>
+    </section>
+
+    <section id="destinasi" class="destinations">
+        <h2>Destinasi Wisata Religi</h2>
+        <div class="destination-list">
+            <div class="destination">
+                <img src="masjid.jpg" alt="Masjid Agung">
+                <h3>Masjid Agung</h3>
+                <p>Masjid bersejarah dengan arsitektur megah dan lingkungan yang damai.</p>
+            </div>
+            <div class="destination">
+                <img src="pura.jpg" alt="Pura Bali">
+                <h3>Pura Bali</h3>
+                <p>Tempat suci dengan pemandangan alam yang menawan di Bali.</p>
+            </div>
+            <div class="destination">
+                <img src="klenteng.jpg" alt="Klenteng Sam Poo Kong">
+                <h3>Klenteng Sam Poo Kong</h3>
+                <p>Klenteng bersejarah di Semarang dengan nilai sejarah yang tinggi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@wisatareligi.com</p>
+        <p>Telepon: +62 812 3456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wisata Religi Nusantara. All rights reserved.</p>
+    </footer>
+</body>
+</html>
